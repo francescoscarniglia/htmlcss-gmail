@@ -46,6 +46,10 @@ footer {
   margin: 10px auto;
 }
 
+#logo img {
+  width: 150px;
+}
+
 #mainContent {
   width: 80%;
   margin: auto;
