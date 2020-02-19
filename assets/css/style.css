@@ -1,0 +1,147 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(73,10,13,0.8);
+  background-image: url('../img/legno.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-weight: 900;
+  color:#fff;
+}
+
+/* utility */
+.distance {
+  margin: 0px 3px;
+}
+.centra {
+  text-align: center;
+  margin: auto;
+}
+
+#intestazione,
+footer {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  color: white;
+}
+
+#logo {
+  width: 150px;
+  margin: 10px auto;
+}
+
+#mainContent {
+  width: 80%;
+  margin: auto;
+
+}
+
+/* input */
+::placeholder {
+  color: #d6d6d6;
+}
+input[type=text],
+input[type=checkbox],
+input[type=submit] {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(45, 148, 52, 0.9);
+}
+
+/* search */
+#search {
+
+  width: 100%;
+}
+
+#searchInput {
+  width: 90%;
+  margin-right: 10px;
+}
+
+/* newRead */
+#newRead {
+  color: white;
+}
+.numberUnread {
+  text-align: center;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  background-color: #4CAF50;
+  display: inline-block;
+}
+
+/* maiList */
+#mailList {
+  background-color: #fff;
+  width: 100%;
+}
+
+.mailRow {
+    padding:5px;
+    border: 0.5px solid #d6d6d6;
+}
+
+
+/* icon and symbol */
+.excerpt::after {
+  content: '...';
+}
+
+.strongPP::after {
+  content: ': ';
+}
+
+.icon {
+  float: right;
+}
+
+.fas {
+  padding: 0px 10px;
+  color:#87847D;
+}
+
+.fas:hover {
+  color: #CCC8BE;
+  cursor: pointer;
+}
+
+/* bg row */
+.read {
+  background-color: #fff;
+}
+
+.unread {
+  background-color: rgba(0, 0, 0, 0.1);
+}
