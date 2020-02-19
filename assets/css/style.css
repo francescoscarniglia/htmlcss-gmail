@@ -22,6 +22,11 @@ h6 {
   color:#fff;
 }
 
+/* layout */
+.col-10 {
+  width:83.33%;
+}
+
 /* utility */
 .distance {
   margin: 0px 3px;
@@ -42,24 +47,31 @@ footer {
 }
 
 #logo {
-  width: 150px;
   margin: 10px auto;
+  width: 150px;
 }
 
 #logo img {
-  width: 150px;
+  width: 45px;
+}
+
+#textLogo {
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
 }
 
 #mainContent {
-  width: 80%;
   margin: auto;
-
 }
 
 /* input */
 ::placeholder {
   color: #d6d6d6;
 }
+
 input[type=text],
 input[type=checkbox],
 input[type=submit] {
@@ -83,7 +95,6 @@ input[type=submit]:hover {
 
 /* search */
 #search {
-
   width: 100%;
 }
 
@@ -113,8 +124,8 @@ input[type=submit]:hover {
 }
 
 .mailRow {
-    padding:5px;
-    border: 0.5px solid #d6d6d6;
+  padding:5px;
+  border: 0.5px solid #d6d6d6;
 }
 
 
